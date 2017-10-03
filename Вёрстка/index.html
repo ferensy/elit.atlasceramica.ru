@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>Plitka Gray</title>
+<title>Elit</title>
 
 <!-- Bootstrap -->
 		
@@ -30,16 +30,18 @@
 </head>
 <body>
 <header class="container">
-	<div class="row">
-		<div class="col-lg-2">
+	<div class="row top-block">
+		<div class="col-lg-2 text-center logo-wrapper">
 			<div class="logo"></div>
 		</div>
-		<div class="col-lg-6">
+		<div class="col-lg-6 text-center">
 			<nav class="top-menu navbar">
 				<div class="container">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-menu">
-						Меню
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
 						</button>
 					</div>
 				</div>
@@ -57,11 +59,82 @@
 			</nav>
 			
 		</div>
-		<div class="col-lg-2"></div>
-		<div class="col-lg-1"></div>
-		<div class="col-lg-1"></div>
+		<div class="col-lg-2 text-center delivery-top">Доставка по всей России</div>
+		<div class="col-lg-1 cart-top">
+			<a href="#" class="cart-block">
+				<div class="cart-quant">99</div>
+			</a>
+		</div>
+		<div class="col-lg-1 text-center">
+			 <span class="glyphicon glyphicon-search search-ico-style" aria-hidden="true" data-toggle="modal" data-target="#search-block"></span>
+			 <div id="search-block" class="modal fade">
+				<div class="modal-dialog">
+					<div class="modal-content">	
+						<div class="modal-header">
+							<button class="close" data-dismiss="modal">x</button>
+							<h4 class="modal-title">Что вы ищите?</h4>
+						</div>
+						<div class="modal-body">
+							<form>
+								<input type="search" placeholder="Поиск по сайту" class="search-field" >
+								<button type="submit" class="search-submit fa fa-search" >
+							</form>
+						</div>
+					</div>
+				</div>
+			 </div>
+		</div>
 	</div>
 </header>
+<div class="container-fluid sl">
+	<div class="row">
+		<div id="carousel" class="carousel slide text-center">
+			<div class="slider">
+				<!-- Индикаторы переключения слайдов -->
+				<ol class="carousel-indicators">
+					<li class="active" data-target="#carousel" data-slide-to="0"></li>
+					<li data-target="#carousel" data-slide-to="1"></li>
+					<li data-target="#carousel" data-slide-to="2"></li>
+				</ol>
+				<!-- Слайды -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<div class="title-slider">
+						Интернет-магазин плитки,<br> сантехники, мебели и<br>	напольных покрытий
+						</div>
+						<div class="text-slider">
+						Атлас Керамика это оптовая и розничная продажа с быстрой доставкой транспортными компаниями по территории России. Мы являемся официальными дистрибьюторами мировых лидеров рынка производства керамической плитки, и у нас всегда в наличии есть как наиболее популярные, так и самые новые модели плитки от лидеров рынка. Компания AtlasCeramica представляет более 100 Испанских, Итальянских и Российских производителей.
+						</div>
+					</div>
+					<div class="item">
+						<div class="title-slider">
+						Очень вкусные цены<br>на производителей: Fap Ceramiche,<br> APE Ceramica, Bayker, Flaviker
+						</div>
+						<div class="text-slider">
+						Атлас Керамика это оптовая и розничная продажа с быстрой доставкой транспортными компаниями по территории России. Мы являемся официальными дистрибьюторами мировых лидеров рынка производства керамической плитки, и у нас всегда в наличии есть как наиболее популярные, так и самые новые модели плитки от лидеров рынка. Компания AtlasCeramica представляет более 100 Испанских, Итальянских и Российских производителей.
+						</div>
+					</div>
+					<div class="item">
+						<div class="title-slider">
+						Спешите купить!<br />
+						Скидка на напольные покрытия!
+						</div>
+						<div class="text-slider">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, error, iusto ipsum blanditiis sed fugit sint quod repellendus eos aliquam quidem tenetur nam deleniti est inventore possimus quisquam porro accusantium.
+						</div>
+					</div>
+					<!-- Стрелки переключения слайдов -->
+					<a href="#carousel" class="left carousel-control" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a href="#carousel" class="right carousel-control" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
